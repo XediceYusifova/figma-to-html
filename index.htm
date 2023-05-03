@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Wigs Ecommerce website</title>
+</head>
+
+<body>
+    <div class="left">
+        <img src="img/capedlogo.svg" alt="logo" />
+        <p class="p">Explore</p>
+        <div class="icons">
+            <div class="icon">
+                <a href="#"><img src="img/lightning.svg" alt="lightning" />New In</a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/coat.svg" alt="coat" />Clothing</a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/shoes.svg" alt="shoes" />Shoes</a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/bag.svg" alt="accessories" />Accessories</a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/active.svg" alt="avtive" />Activewear</a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/gift.svg" alt="gift" />Gifts & Living</a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/diamond.svg" alt="diamond" />Inspiration</a>
+            </div>
+        </div>
+        <div id="comment">
+            <a href="#" id="i"><i class="fas fa-comment"></i></a>
+            <a href="#">Help Center</a>
+        </div>
+    </div>
+    <div class="right">
+        <header>
+            <div class="container">
+                <img src="img/search.svg" alt="search" />
+                <input type="text" placeholder="Search" />
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#products">products</a>
+                            <a class="nav-item nav-link" href="#story">story</a>
+                            <a class="nav-item nav-link" href="#manufacturing">manufacturing</a>
+                            <a class="nav-item nav-link" href="#packaging">packaging</a>
+                        </div>
+                    </div>
+                    <a href="#basket" id="basket">
+                        <img src="img/basket.svg" alt="basket" />
+                    </a>
+                    <a href="#profile" id="profile">
+                        <img src="img/person.svg" alt="profile" />
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <div class="container2">
+            <div class="up d-flex">
+                <div class="col long_width">
+                    <img src="img/W1.svg" alt="1" />
+                    <img src="img/W2.svg" alt="2" />
+                </div>
+                <div class="col long_height">
+                    <img src="img/W7.svg" alt="7" />
+                    <img src="img/W8.svg" alt="8" />
+                </div>
+            </div>
+            <div class="down d-flex">
+                <div class="col long_height">
+                    <img src="img/W3.svg" alt="3" />
+                    <img src="img/W4.svg" alt="4" />
+                </div>
+                <div class="col long_width">
+                    <img src="img/W5.svg" alt="5" />
+                    <img src="img/W6.svg" alt="6" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d947b52e38.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $('body').on('click', '.nav-item', function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+    </script>
+</body>
+
+</html>
